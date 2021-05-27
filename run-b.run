@@ -1,0 +1,9 @@
+reset;
+
+model /home/guilherme/sandbox/FCUP/MAD/trabalho_02/trabalho-2-b.mod;
+data /home/guilherme/sandbox/FCUP/MAD/trabalho_02/trabalho-2.dat;
+
+solve;
+
+display pi;
+#display x;
